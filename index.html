@@ -5,24 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro de Devs</title>
-  <script src="exercicio5.js" defer></script>
+
+  <style>
+    .is-light { background-color: #f1f5f9; color: #212529; }
+    .is-dark { background-color: #212529; color: #f1f5f9; }
+  </style>
+
+  <script src="calculatorV2.js" defer></script>
 </head>
 <body>
-  <h1>Exercício - Cadastro de Devs</h1>
+  <h1>Manipulando Atributos Com Javascript</h1>
   <hr>
 
-  <h2>Cadastrar Novo Desenvolvedor</h2>
+  <input type="text" name="input" id="input" data-something-else="Algum valor">
 
-  <form id="devForm">
-    <label for="fullname">Nome Completo:</label>
-    <input type="text" name="fullname" id="fullname" /><br><br>
-
-    <label>Tecnologias:</label><br>
-    <button id="addTechBtn">Adicionar Nova</button>
-    <ul id="stackInputs"></ul>
-    <br>
-    <button type="submit">Cadastrar</button>
-  </form>
+  <button id="value">Mudar Valor</button>
+  <button id="type">Mudar Tipo</button>
+  <button id="placeholder">Mudar Placeholder</button>
+  <button id="disable">Desabilitar/Habilitar</button>
+  <button id="data">Mostrar Dados</button>
 
 </body>
 </html>
